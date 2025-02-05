@@ -388,11 +388,12 @@ footer .heart {
     display: flex;
     gap: 0.5rem;
     justify-content: center;
-    margin: 0.25rem auto 0;
+    margin: 0.25rem auto;
 }
 
 .github-button {
     transition: opacity 0.2s;
+    display: inline-block;
 }
 
 .github-button:hover {
@@ -401,15 +402,17 @@ footer .heart {
 
 .github-button img {
     transform: scale(1.2);
+    display: block;
 }
 
 /* Buy Me a Coffee button scaling */
 .bmc-btn-container {
     transform: scale(0.9);
-    margin: -0.5rem 0 0;
+    margin: 0;
     background-color: var(--accent-footer);
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 8px;
+    line-height: 1;
 }
 
 /* Utility classes */
