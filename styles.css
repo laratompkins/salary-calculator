@@ -385,6 +385,17 @@ footer .heart {
     color: inherit;
 }
 
+/* GitHub button */
+.github-button {
+    display: block;
+    margin: 0.75rem auto;
+    transition: opacity 0.2s;
+}
+
+.github-button:hover {
+    opacity: 0.8;
+}
+
 /* Buy Me a Coffee button scaling */
 .bmc-btn-container {
     transform: scale(0.9);
