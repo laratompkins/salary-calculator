@@ -16,20 +16,19 @@
     <div class="page-wrapper">
         <main class="container">
             <h1>Max Salary Calculator</h1>
-            <p>This calculator was designed for SURS-eligible employees who are at or approaching the maximum of their salary range. Use it to calculate the "overload" stipends you would receive based on designated or projected Cost of Living Adjustments ("COLA"s), and the resulting annual salaries that would be reported to SURS as your "period earnings". The calculator assumes that ranges will remain fixed for up to 5 years before the next adjustment.</p>
+            <p>This calculator is designed for SURS-eligible employees who are at or approaching the maximum of their salary range. Use it to calculate your "overload" stipend based on designated or projected Cost of Living Adjustments ("COLAs") and view the resulting annual salaries that will be reported to SURS as your "period earnings". The calculator assumes that ranges will remain fixed for up to 5 years before the next adjustment.</p>
             <div class="info-alert" role="alert">
-                <span class="info-icon" aria-hidden="true">ℹ️</span>
-                <span><strong>Note:</strong> Your salary data is not saved or transmitted anywhere. However, your web browser's auto-complete may remember the values you enter.</span>
+                <span><strong>Note:</strong> Your salary data is not saved or transmitted. Your browser's auto-complete feature may remember the values you enter.</span>
             </div>
             <form id="salaryForm" aria-label="Salary calculation form">
                 <div class="base-salary-input">
                     <h2>Base Salary</h2>
                     <p>Enter your annual base salary.</p>
                     <div class="form-group">
-                        <label for="baseSalary">Base Salary (USD)</label>
+                        <label for="baseSalary">Base Salary:</label>
                         <div class="input-group">
                             <span class="input-prefix" aria-hidden="true">$</span>
-                            <input type="text" inputmode="numeric" id="baseSalary" required pattern="[0-9,]*" aria-describedby="baseSalaryDesc">
+                            <input type="text" inputmode="decimal" id="baseSalary" required>
                         </div>
                     </div>
                 </div>
@@ -37,35 +36,35 @@
                     <h2>Cost of Living Adjustments</h2>
                     <p id="colaDesc">Input the Cost of Living Adjustment (COLA) percentages for up to five consecutive years.</p>
                     <div class="form-group">
-                        <label for="cola1">Year 1 COLA (%)</label>
+                        <label for="cola1">Year 1 COLA %:</label>
                         <div class="input-group">
                             <input type="text" inputmode="decimal" id="cola1" required aria-describedby="colaDesc">
                             <span class="input-suffix" aria-hidden="true">%</span>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="cola2">Year 2 COLA (%)</label>
+                        <label for="cola2">Year 2 COLA %:</label>
                         <div class="input-group">
                             <input type="text" inputmode="decimal" id="cola2" aria-describedby="colaDesc">
                             <span class="input-suffix" aria-hidden="true">%</span>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="cola3">Year 3 COLA (%)</label>
+                        <label for="cola3">Year 3 COLA %:</label>
                         <div class="input-group">
                             <input type="text" inputmode="decimal" id="cola3" aria-describedby="colaDesc">
                             <span class="input-suffix" aria-hidden="true">%</span>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="cola4">Year 4 COLA (%)</label>
+                        <label for="cola4">Year 4 COLA %:</label>
                         <div class="input-group">
                             <input type="text" inputmode="decimal" id="cola4" aria-describedby="colaDesc">
                             <span class="input-suffix" aria-hidden="true">%</span>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="cola5">Year 5 COLA (%)</label>
+                        <label for="cola5">Year 5 COLA %:</label>
                         <div class="input-group">
                             <input type="text" inputmode="decimal" id="cola5" aria-describedby="colaDesc">
                             <span class="input-suffix" aria-hidden="true">%</span>
