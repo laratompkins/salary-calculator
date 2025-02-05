@@ -2,6 +2,8 @@
 
 A professional salary calculator that helps users project their salary over a 5-year period, taking into account base salary, annual COLA (Cost of Living Adjustment), and stipends. The calculator provides a clear visualization of earnings progression and includes SURS (State Universities Retirement System) period earnings calculations.
 
+ **[Try the Calculator](https://laratompkins.github.io/salary-calculator/)**
+
 ## Features
 
 - 5-year salary projection
@@ -25,7 +27,7 @@ A professional salary calculator that helps users project their salary over a 5-
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/salary-calculator.git
+git clone https://github.com/laratompkins/salary-calculator.git
 ```
 
 2. Open `index.html` in your web browser
