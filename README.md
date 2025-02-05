@@ -1,8 +1,12 @@
 # Salary Calculator
 
+[![GitHub](https://img.shields.io/github/license/laratompkins/salary-calculator)](https://github.com/laratompkins/salary-calculator/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/laratompkins/salary-calculator)](https://github.com/laratompkins/salary-calculator/stargazers)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Flaratompkins.github.io%2Fsalary-calculator%2F)](https://laratompkins.github.io/salary-calculator/)
+
 A professional salary calculator that helps users project their salary over a 5-year period, taking into account base salary, annual COLA (Cost of Living Adjustment), and stipends. The calculator provides a clear visualization of earnings progression and includes SURS (State Universities Retirement System) period earnings calculations.
 
- **[Try the Calculator](https://laratompkins.github.io/salary-calculator/)**
+🔗 **[Try the Calculator](https://laratompkins.github.io/salary-calculator/)**
 
 ## Features
 
