@@ -357,43 +357,26 @@ td:first-child {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0.7rem;
+    gap: 1.5rem;
     flex-shrink: 0;
     margin-top: 1.5rem;
 }
 
-.footer strong {
-    font-weight: 500;
+.footer-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
 }
 
-.footer iframe {
-    transform: scale(0.7);
-    transform-origin: center;
-    margin: -8px 0;
-}
-
-footer {
-    margin-top: 2rem;
-    text-align: center;
-    font-size: 0.85rem;
-    color: #808080;
-}
-
-footer .heart {
-    color: inherit;
-}
-
-/* GitHub badges */
 .github-badges {
     display: flex;
-    gap: 0.5rem;
-    justify-content: center;
-    margin: 0.25rem auto;
+    gap: 4.15rem;
 }
 
 .github-button {
     transition: opacity 0.2s;
     display: inline-block;
+    margin: 0 0.75rem;
 }
 
 .github-button:hover {
@@ -401,16 +384,15 @@ footer .heart {
 }
 
 .github-button img {
-    transform: scale(1.2);
+    transform: scale(2.0);
     display: block;
 }
 
-/* Buy Me a Coffee button scaling */
 .bmc-btn-container {
     transform: scale(0.9);
-    margin: 0;
+    margin: 0 1rem;
     background-color: var(--accent-footer);
-    padding: 0.5rem;
+    padding: 0;
     border-radius: 8px;
     line-height: 1;
 }
@@ -519,4 +501,15 @@ input[type="number"] {
 
 tr:hover {
     background-color: rgba(155, 109, 255, 0.1);
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #808080;
+}
+
+footer .heart {
+    color: inherit;
 }
