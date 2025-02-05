@@ -891,3 +891,19 @@ footer .heart {
         transform: scale(0.7);
     }
 }
+
+.base-salary-input {
+    margin-bottom: 2rem;
+}
+
+.base-salary-input .form-group {
+    margin-bottom: 0;
+}
+
+.cola-inputs {
+    margin-bottom: 2rem;
+}
+
+.cola-inputs .form-group:last-child {
+    margin-bottom: 0;
+}
