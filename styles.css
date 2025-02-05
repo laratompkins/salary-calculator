@@ -60,7 +60,7 @@ main {
 
 /* Layout */
 main.container {
-    width: 35%;
+    width: 50%;
     min-width: 500px;
     margin: 0 auto;
     padding: 2rem;
@@ -99,13 +99,13 @@ main.container {
 
     /* Text adjustments */
     p {
-        font-size: 1rem;
+        font-size: 1.15rem;
         line-height: 1.6;
         margin: 1rem 0;
     }
 
     .info-alert {
-        font-size: 0.9rem;
+        font-size: 1rem;
         padding: 0.75rem;
         margin: 1rem 0;
         gap: 0.5rem;
@@ -134,17 +134,17 @@ main.container {
     }
 
     h1 {
-        font-size: 1.75rem;
+        font-size: 2.25rem;
         margin-bottom: 1rem;
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         margin-bottom: 1rem;
     }
 
     p {
-        font-size: 0.95rem;
+        font-size: 1.25rem;
     }
 
     .info-alert {
@@ -169,17 +169,17 @@ main.container {
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 2.25rem;
         margin-bottom: 1rem;
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         margin-bottom: 1rem;
     }
 
     p {
-        font-size: 1.1rem;
+        font-size: 1.25rem;
         line-height: 1.6;
         margin: 1rem 0;
     }
@@ -264,12 +264,12 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 1.75rem;
+    font-size: 2.25rem;
     margin-bottom: 0.75rem;
 }
 
 h2 {
-    font-size: 1.35rem;
+    font-size: 1.75rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
 }
@@ -277,7 +277,7 @@ h2 {
 p {
     color: var(--text-primary);
     margin-bottom: 1.25rem;
-    font-size: 0.85rem;
+    font-size: 1rem;
 }
 
 /* Form elements */
@@ -697,7 +697,7 @@ td:first-child {
 
 /* Container paragraphs */
 .container > p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.7;
     margin-bottom: 2rem;
     max-width: 70ch;
@@ -798,7 +798,7 @@ footer .heart {
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 2.25rem;
         margin-bottom: 0.75rem;
     }
 
@@ -880,7 +880,7 @@ footer .heart {
 /* Additional adjustments for very small screens */
 @media screen and (max-width: 480px) {
     h1 {
-        font-size: 1.75rem;
+        font-size: 2rem;
     }
 
     .github-button img {
