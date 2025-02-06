@@ -839,9 +839,9 @@ footer .heart {
         transform: scale(1.5);
     }
 
-    .bmc-btn-container {
+    /* .bmc-btn-container {
         transform: scale(0.8);
-    }
+    } */
 
     /* Adjust form layout */
     .form-group {
